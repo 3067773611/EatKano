@@ -425,10 +425,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '演员？';
-        if (cps <= 30) return '没吃饭吗';
-        if (cps <= 50)  return '继续！冲刺！';
-        if (cps <= 70) return '你就是劲夫本人吧？';
+        if (cps <= 1) return '演员？';
+        if (cps <= 2) return '没吃饭吗';
+        if (cps <= 3)  return '继续！冲刺！';
+        if (cps <= 4) return '你就是劲夫本人吧？';
         return '小贷？';
     }
 
